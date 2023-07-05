@@ -17,7 +17,7 @@ public class Test3 {
 	String Browser ="chrome";
 	@Test
 	public void testCase3() throws InterruptedException{
-		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		SoftAssert st=new SoftAssert();
 		if(Browser.equalsIgnoreCase("chrome")){
 			driver=new ChromeDriver();

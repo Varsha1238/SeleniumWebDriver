@@ -19,7 +19,7 @@ public class Test1 {
     
 	@Test()
 	public void testCase1() throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Softwares\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		if (Browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (Browser.equalsIgnoreCase("firefox")) {
